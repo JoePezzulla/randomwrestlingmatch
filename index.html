@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <div class="full">
+  <div>
+    <h1>
+  Random Wrestling Match
+</h1>
+  </div>
+<form>
+  <!--Length between:
+  <input type=time id="min-time">
+  and 
+  <input type=time id="max-time"><br>-->
+  <div id="fieldHeader">
+  Minimum Meltzer Rating:
+  </div>
+  <br>
+  <input type=number id="rating"><br>
+  <div id="fieldHeader">
+  Minimum Year:
+  </div><br><input type=number id="year"><br>
+  <div id="fieldHeader">
+  Company:
+  </div>
+  <br>
+    <select id="company" name="company">
+      <option value=undefined>Choose Company</option>
+    <option value="NJP">NJPW</option>
+    <option value="WWE">WWE</option>
+    <option value="WWF">WWF</option>
+    <option value="NWA">NWA</option>
+    <option value="TNA">TNA/IMPACT/GFW</option>
+    <option value="AJP">AJPW</option>
+    <option value="NXT">NXT</option>
+    <option value="NOA">NOAH</option>
+  </select>
+</form>
+  <br><br>
+<div class="buttonDiv">
+<button id="submit-button" onclick="dualFunc()" class="button button1">
+  Give me a match
+</button><br><br><br>
+</div>
+<span id="return" class="return"></span>
+<span id="secondReturn" class="secondReturn"></span>
+</div>
+    <script src="./index.js"></script>
+  </body>
+</html>

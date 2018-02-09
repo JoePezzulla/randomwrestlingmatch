@@ -1,0 +1,71 @@
+body{
+  background-color: #F3EFE0;
+  font-family: "Rockwell";
+}
+  h1{
+  text-align: center;
+  color: #9A3334;
+  border-bottom: medium solid #3399FF;
+}
+form{
+  text-align: center;
+  color: #9A3334;
+}
+.button{
+  text-align: center;
+  font-family: "Rockwell";
+  background-color: #9A3334; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #9A3334;
+}
+.button1:hover {
+    background-color: #9A3334;
+    color: white;
+}
+.return{
+  text-align: center;
+  margin-left: 27%
+}
+.secondReturn{
+  text-align: center;
+  margin-left: 35%
+}
+.full{
+  margin-top: 4%;
+}
+input{
+  background-color: #217C7E;
+  color: white;
+  padding: 16px 20px;
+  border: 2px solid #9A3334;
+  border-radius: 10px;
+}
+select {
+    padding: 16px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #217C7E;
+    color: white;
+    border: 2px solid #9A3334;
+}
+#fieldHeader{
+  border-bottom: thin solid #3399FF;
+  width: 300px;
+  margin-left: 40%;
+}
+.buttonDiv{
+  margin-left: 44.5%
+}
